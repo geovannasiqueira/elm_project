@@ -1,9 +1,0 @@
-{
-  "name": "elm-project",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "elm make src/Main.elm --output=dist/index.js",
-    "start": "bun run build && bun run serve ",
-    "serve": "bun run --hot server.js"
-  }
-} 
